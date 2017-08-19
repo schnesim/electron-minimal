@@ -1,0 +1,24 @@
+{
+  "name": "bookmark0r",
+  "version": "0.0.1",
+  "description": "Yet another bookmark manager",
+  "bin": "../",
+  "main": "./dist/main.js",
+  "dependencies": {
+    "electron": "^1.7.5",
+    "electron-debug": "^1.0.0",
+    "jquery": "^3.2.1"
+  },
+  "scripts": {
+    "start": "LANG=en_US.UTF-8 && electron ."
+  },
+  "author": "Simon Schneider",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/schnesim/command0r#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-atom-electron": "^1.14.0",
+    "gulp-symdest": "^1.1.0",
+    "run-sequence": "^2.1.0"
+  }
+}
